@@ -1,0 +1,18 @@
+{
+  "name": "reddit-place-to-img",
+  "version": "1.0.0",
+  "description": "A tool for getting the canvas as an image from r/place.",
+  "main": "index.js",
+  "scripts": {
+    "get-canvas": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nsev",
+  "license": "MIT",
+  "dependencies": {
+    "after-load": "1.0.4",
+    "cheerio": "0.22.0",
+    "express": "4.15.2",
+    "http": "0.0.0"
+  }
+}
